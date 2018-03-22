@@ -1,0 +1,25 @@
+
+注意demo（v1.0.0）仅供参考
+
+说明：
+1.进入DEMO-->Java Resources-->src/main/resources-->configurations.properties
+修改如下信息：
+提交地址：详细见接口文档
+a.	formAction=
+MD5证书：//该证书下载步骤：商户后台-->商户设置-->商户服务-->MD5证书--> 下载
+b.	directStr=
+商户号：环讯为商户开通的6位商户号
+c.	merCode=
+修改上述信息，运行demo，在打开页面修改对应参数即可。
+2.修改订单支付页面显示信息（平台自行选择）
+1）进入DEMO-->Java Resources-->src/main/resources-->configurations.properties
+修改如下信息：
+a.	formAction=
+b.	directStr=
+c.	merCode=
+2）进入DEMO-->src-->main-->webapp-->WEB-INF-->views-->sinopay.jsp
+平台自行选择修改对应参数，保存后运行即可。
+
+
+3，接口中使用到的交易账户号Account查看路径如下
+账户号： //登录商户后台-->账户管理-->账户资料-->交易账户-->交易账号 
